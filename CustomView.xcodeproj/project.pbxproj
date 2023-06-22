@@ -16,6 +16,8 @@
 		FAB490542A405FB1006AD548 /* CustomViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB490532A405FB1006AD548 /* CustomViewTests.swift */; };
 		FAB4905E2A405FB1006AD548 /* CustomViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4905D2A405FB1006AD548 /* CustomViewUITests.swift */; };
 		FAB490602A405FB1006AD548 /* CustomViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4905F2A405FB1006AD548 /* CustomViewUITestsLaunchTests.swift */; };
+		FAB490752A4064D3006AD548 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB490742A4064D3006AD548 /* TestView.xib */; };
+		FAB490772A406523006AD548 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB490762A406523006AD548 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FAB490592A405FB1006AD548 /* CustomViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB4905D2A405FB1006AD548 /* CustomViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewUITests.swift; sourceTree = "<group>"; };
 		FAB4905F2A405FB1006AD548 /* CustomViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAB490742A4064D3006AD548 /* TestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		FAB490762A406523006AD548 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				FAB4903C2A405FAF006AD548 /* AppDelegate.swift */,
 				FAB4903E2A405FAF006AD548 /* SceneDelegate.swift */,
 				FAB490402A405FAF006AD548 /* ViewController.swift */,
+				FAB490742A4064D3006AD548 /* TestView.xib */,
+				FAB490762A406523006AD548 /* TestView.swift */,
 				FAB490422A405FAF006AD548 /* Main.storyboard */,
 				FAB490452A405FB1006AD548 /* Assets.xcassets */,
 				FAB490472A405FB1006AD548 /* LaunchScreen.storyboard */,
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB490752A4064D3006AD548 /* TestView.xib in Resources */,
 				FAB490492A405FB1006AD548 /* LaunchScreen.storyboard in Resources */,
 				FAB490462A405FB1006AD548 /* Assets.xcassets in Resources */,
 				FAB490442A405FAF006AD548 /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB490772A406523006AD548 /* TestView.swift in Sources */,
 				FAB490412A405FAF006AD548 /* ViewController.swift in Sources */,
 				FAB4903D2A405FAF006AD548 /* AppDelegate.swift in Sources */,
 				FAB4903F2A405FAF006AD548 /* SceneDelegate.swift in Sources */,
@@ -445,6 +453,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +482,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
