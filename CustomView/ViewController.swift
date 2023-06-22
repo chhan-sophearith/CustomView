@@ -12,7 +12,6 @@ class ViewController: UIViewController {
     let testView: TestView = {
         var view = TestView()
         view = .fromNib()
-        view.backgroundColor = .systemPink
         return view
     }()
     
